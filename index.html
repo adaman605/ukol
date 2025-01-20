@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Ukol 0
+        var cenaKusu = Number(prompt("Zadejte cenu jablka"));
+        var pocet = Number(prompt("Zadejte počet jablek"));
+
+        var cena = cenaKusu * pocet;
+
+        alert("Za " +pocet+ " kusů zaplatíš "  + cena + " korun");
+
+        //Ukol 1
+        var pocetHodin = Number(prompt("Zadejte počet hodin"));
+        var pocetMinut = pocetHodin * 60;
+
+        alert("Počet minut je" + pocetMinut);
+
+        //Ukol 2
+        var tempInCelsius = Number(prompt("Zadejte teplotu ve stupních Celsia"));
+        var tempInFar = tempInCelsius * (9/5) + 32;
+
+        alert("Teplota ve stupních Fahrenheit je " + tempInFar);
+
+        //Ukol 3
+        var znamka1 = Number(prompt("Zadejte první známku"));
+        var znamka2 = Number(prompt("Zadejte druhou známku"));
+        var znamka3 = Number(prompt("Zadejte třetí známku"));
+
+        var prumer = (znamka1 + znamka2 + znamka3)/3;
+        console.log("Průměr známek je " +prumer);
+
+        //Ukol 4
+        var metry = Number(prompt("Zadejte vzdálenost v metrech"));
+        var kilometry = metry/1000;
+
+        alert("Vzdálenost v kilometrech je " +kilometry);
+
+        //Ukol 5
+        var vek = Number(prompt("Kolik je ti let?"));
+        var mesice = Number(prompt("Zadejte i počet měsíců navíc"));
+
+        var pocetDni = (vek*365) + (mesice * 30);
+
+        alert("Žiješ připližně " +pocetDni+ " dní");
+
+
+
+
+    </script>
+</body>
+</html>
